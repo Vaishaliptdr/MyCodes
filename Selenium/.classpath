@@ -89,5 +89,6 @@
 	<classpathentry kind="lib" path="C:/Users/vaishali.potdar/Desktop/Softwares/selenium-java-4.26.0/selenium-safari-driver-4.26.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vaishali.potdar/Desktop/Softwares/selenium-java-4.26.0/selenium-support-4.26.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vaishali.potdar/Desktop/Softwares/selenium-java-4.26.0/selenium-support-4.26.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vaishali.potdar/Desktop/Softwares/webdrivermanager-5.9.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class NewWindowHandling {
+public class WindowHandling {
 	public static void main(String[] args) throws Exception {
 
 		String projectPath=System.getProperty("user.dir");
@@ -27,6 +27,7 @@ public class NewWindowHandling {
 
 		// Launch application url using get() method.
 		driver.get("https://demoqa.com/browser-windows");
+		
 		//Scrolling the site
 		JavascriptExecutor js = (JavascriptExecutor)driver;  
 		js.executeScript("scrollBy(0, 3000)"); 

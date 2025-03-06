@@ -20,12 +20,20 @@ public class RadioButton {
 		driver.manage().window().maximize();
 
 		driver.findElement(By.xpath("//*[text()='Create new account']")).click();
+		
+		//calculates the number of radio buttons
+		int a = driver.findElements(By.xpath("//input [@id='sex']")).size();
+		System.out.println(a);
+		//we will handle the radio buttons by using the index of a particular radio button
+		//Index starts with 0
+		driver.findElements(By.xpath("//input[@id='sex']")).get(1).click();
 
+		
 		WebElement maleRadioButton = driver.findElement(By.xpath("//input[@value='2']"));
 		WebElement femaleRadioButton = driver.findElement(By.xpath("//input[@value='1']"));
 		WebElement customeRadioButton = driver.findElement(By.xpath("//input[@value='-1']"));
 
-		//Checing element is selected or not
+		//Checking element is selected or not
 		Boolean Button2= maleRadioButton.isSelected();
 		if(Button2==false)
 			maleRadioButton.click();
@@ -37,7 +45,7 @@ public class RadioButton {
 		if (Button1==true)
 			femaleRadioButton.click();
 
-		//Checking element is 
+		//Checking element is Enabled
 		Boolean Button3=customeRadioButton.isEnabled();
 		if(Button3==true)
 			customeRadioButton.click();
