@@ -2,6 +2,9 @@
  * then we need to install and set the path for that. Without doing that we can get the 
  * current directory path and save the driver in our current project itself */ 
 
+//Adding new line
+
+
 package seleniumPackage;
 
 import java.time.Duration;
@@ -19,7 +22,7 @@ public class Launch1 {
 		/**********************Chrome Browser*******************************/
 		String projectPath=System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", projectPath +"//Drivers/chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\vaishali.potdar\\Desktop\\Softwares\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\Users\vaishali.potdar_info\Desktop\Softwares\chromedriver-win64\chromedriver-win64");
 
 		// Initialize a Chrome WebDriver instance
 		WebDriver chromeDriver = new ChromeDriver();
