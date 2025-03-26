@@ -1,4 +1,5 @@
 //Actions Class: Context click, double click and mouse hover
+
 package seleniumPackage;
 
 import java.time.Duration;
